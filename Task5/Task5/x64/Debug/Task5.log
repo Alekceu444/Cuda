@@ -1,0 +1,11 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\Alekceu444\source\repos\Task5\Task5>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env --cl-version 2017 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\bin\HostX86\x64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "C:\Users\Alekceu444\source\repos\Task5\Task5\kernel.cu" 
+  kernel.cu
+C:/Users/Alekceu444/source/repos/Task5/Task5/kernel.cu(23): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Task5.vcxproj -> C:\Users\Alekceu444\source\repos\Task5\x64\Debug\Task5.exe
+  Task5.vcxproj -> C:\Users\Alekceu444\source\repos\Task5\x64\Debug\Task5.pdb (Partial PDB)
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\cudart*.dll" "C:\Users\Alekceu444\source\repos\Task5\x64\Debug\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\cudart32_91.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\cudart64_91.dll
+  Скопировано файлов:         2.
